@@ -18,7 +18,7 @@ jobs:
   update_release_draft:
     runs-on: ubuntu-latest
     steps:
-      - uses: release-drafter/release-drafter@v6
+      - uses: release-drafter/release-drafter@v7
         with:
           # 👇 C'est la ligne magique qui corrige l'erreur 422
           # Si l'événement est une PR, on désactive la création de release (on fait juste les labels)
